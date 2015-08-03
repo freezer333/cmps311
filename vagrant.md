@@ -60,6 +60,13 @@ $ vagrant ssh
 ```
 Once the ssh shell has started, you are logged into linux and can issue commands.
 
+### Problems with git
+After typing `vagrant ssh` you might see a message something like this:
+```
+'ssh' executable not found in any directories in the %PATH% variable.  Is an ssh client installed?....
+```
+This means you do not have a version of git on your machine - which is easy to get.  For Windows, download and install the [windows git](http://git-scm.com/download/win).  For a Mac, get the [OS X version](http://git-scm.com/download/mac).  After installing git fully, **close the command prompt** and start with a new command prompt (cd to your linux directory, and try `vagrant ssh` again).  If you still have problems, particularly on Windows, see info about setting up your PATH [here](git_path.html)
+
 ## Testing things out - test.c
 We'll program mostly in C in this course.  Lets use the build tools, in conjunction with our own editor, to build and run a simple program that says hello, and tells us what operating system we are running.
 

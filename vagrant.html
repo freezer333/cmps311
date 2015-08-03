@@ -1,0 +1,226 @@
+<!doctype html><html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Scott Frees</title>
+
+<style type='text/css'>
+  *{margin:0;padding:0;}
+  body {
+    font:13.34px helvetica,arial,freesans,clean,sans-serif;
+    color:black;
+    line-height:1.4em;
+    background-color: #F8F8F8;
+    padding: 0.7em;
+  }
+  p {
+    margin:1em 0;
+    line-height:1.5em;
+  }
+  table {
+    font-size:inherit;
+    font:100%;
+    margin-top:1em;
+    margin-bottom:1em;
+  }
+  table th{border-bottom:1px solid #bbb;padding:.2em 1em;}
+  table td{border-bottom:1px solid #ddd;padding:.2em 1em;}
+  input[type=text],input[type=password],input[type=image],textarea{font:99% helvetica,arial,freesans,sans-serif;}
+  select,option{padding:0 .25em;}
+  optgroup{margin-top:.5em;}
+  pre,code{font:12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;}
+  pre {
+    margin:1em 0;
+    font-size:12px;
+    background-color:#eee;
+    border:1px solid #ddd;
+    padding:5px;
+    line-height:1.5em;
+    color:#444;
+    overflow:auto;
+    -webkit-box-shadow:rgba(0,0,0,0.07) 0 1px 2px inset;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;border-radius:3px;
+  }
+  pre code {
+    padding:0;
+    font-size:12px;
+    background-color:#eee;
+    border:none;
+  }
+  code {
+    font-size:12px;
+    background-color:#f8f8ff;
+    color:#444;
+    padding:0 .2em;
+    border:1px solid #dedede;
+  }
+  img{border:0;max-width:100%;}
+  abbr{border-bottom:none;}
+  a{color:#4183c4;text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  a code,a:link code,a:visited code{color:#4183c4;}
+  h2,h3{margin:1em 0;}
+  h1,h2,h3,h4,h5,h6{border:0;}
+  h1{font-size:170%;border-top:4px solid #aaa;padding-top:.5em;margin-top:1.5em;}
+  h1:first-child{margin-top:0;padding-top:.25em;border-top:none;}
+  h2{font-size:150%;margin-top:1.5em;border-top:4px solid #e0e0e0;padding-top:.5em;}
+  h3{margin-top:1em;}
+  hr{border:1px solid #ddd;}
+  ul{margin:1em 0 1em 2em;}
+  ol{margin:1em 0 1em 2em;}
+  ul li,ol li{margin-top:.5em;margin-bottom:.5em;}
+  ul ul,ul ol,ol ol,ol ul{margin-top:0;margin-bottom:0;}
+  blockquote{margin:1em 0;border-left:5px solid #ddd;padding-left:.6em;color:#555;}
+  dt{font-weight:bold;margin-left:1em;}
+  dd{margin-left:2em;margin-bottom:1em;}
+  sup {
+      font-size: 0.83em;
+      vertical-align: super;
+      line-height: 0;
+  }
+  * {
+    -webkit-print-color-adjust: exact;
+  }
+
+  .highlight {
+    background-color:#f1c40f;
+    padding-bottom:1em;
+    padding-right:1em;
+    padding-left:1em;
+    font-weight:bold;
+  }
+  @media screen and (min-width: 914px) {
+      body {
+          width: 854px;
+          margin:0 auto;
+      }
+  }
+  @media print {
+    table, pre {
+      page-break-inside: avoid;
+    }
+    pre {
+      word-wrap: break-word;
+    }
+  }
+
+
+</style>
+
+</head>
+<h1 id="installing-ubuntu-linux-using-vagrant-virtualization">Installing Ubuntu Linux using Vagrant virtualization</h1>
+<p>In CMPS 311 you will be asked to write programs that target the Unix (or a Unix-like) operating system.  If you have a Mac OS X computer, you may use this; however there are small areas where your programs might differ from those presented in class.  If you only have access to a Windows computer, you <em>must</em> get access to a Unix-like system as well - which this document will help you with.  If you are a Mac user, this document might still be relevant, if you want to use the same platform as I will when testing your code.</p>
+<p>If you are already using Linux, then you likely do not need to read on - unless you are interested in seeing how virtualization works.</p>
+<blockquote>
+<p>Note - this document is for CMPS 311 students, and is written with student who have limited or no experience using linux or unix systems.  If you already have experience with linux, you might want to just go to Vagrant&#39;s website and follow the Getting Started section - which is a little more succinct.</p>
+</blockquote>
+<h2 id="notes-about-other-options">Notes about other options</h2>
+<p>While you will need to have access to a Unix system, there are actually a whole bunch of ways to do this.  The college has a Linux server, which you can access using ssh.  You can dual-boot your computer to run a full-fledged Linux installation.  You can also install Linux as a virtual machine using free software like VirtualBox or paid-software like VMWare.  </p>
+<p>In this document, I will show you likely the <em>easiest</em> way to get up and running - executing code in a linux environment.  It is not necessarily the best way, but it lets you continue to work relatively seamlessly in your familiar environment.  You&#39;ll use source code editors in your normal operating system (you could even use Visual Studio, although I&#39;ll show you Sublime Text).  You&#39;ll compile and run your code in a virtual machine running linux though.  </p>
+<p>The virtualization software I&#39;ll use in this document is called <a href="https://www.vagrantup.com/">Vagrant</a>.  It is free software.  It actually depends on VirtualBox, so the first step is to download both.</p>
+<h2 id="download-vagrant-and-virtualbox">Download Vagrant and VirtualBox</h2>
+<p>Go to the Vagrant <a href="https://www.vagrantup.com/downloads">download link</a> and be sure to choose the right platform (Mac OS X, Windows).</p>
+<p>Go to the VirtualBox <a href="https://www.virtualbox.org/wiki/Downloads">download link</a> and make sure you download the install for the right platform as well (under VirtualBox platform packages)</p>
+<h2 id="installing-your-software">Installing your Software</h2>
+<h3 id="installing-vagrant-on-a-mac">Installing Vagrant on a Mac</h3>
+<ul>
+<li>Download the .dmg file and save it to your desktop</li>
+<li>Double-click the .dmg file and then double click the vagrant.pkg file.</li>
+<li>Keep all the default installation options, and provide your password when asked.</li>
+<li>That should be it... for vagrant</li>
+</ul>
+<h3 id="install-virtual-box-on-a-mac">Install Virtual Box on a Mac</h3>
+<ul>
+<li>Download the .dmg file and save it to your desktop</li>
+<li>Double-click the .dmg file and then double click the VirtualBox.pkg file.</li>
+<li>Keep all the default installation options, and provide your password when asked.</li>
+<li>That&#39;s it.</li>
+</ul>
+<h2 id="getting-a-linux-installation">Getting a linux installation</h2>
+<p>Now we&#39;re going to install a linux operating system which will run in a virtualized environment on your computer.  Its extremely easy to do - and we&#39;ll install a plainn 32-bit Ubuntu edition of Linux.  See <a href="https://docs.vagrantup.com/v2/getting-started/index.html">vagrant&#39;s documentation</a> for listings of many other versions of linux that you can install.</p>
+<p>Open your terminal (or command prompt on Windows).  Navigate (using <code>cd</code>)to the directory you&#39;d like to install your guest linux installation within.</p>
+<pre><code>$ mkdir cmps311
+$ cd cmps311
+$ mkdir linux
+$ cd linux
+</code></pre><p>Type the following:</p>
+<pre><code>$ vagrant init hashicorp/precise32
+$ vagrant plugin install vagrant-vbguest
+$ vagrant up
+</code></pre><p>Once you&#39;ve run this (it will take a bit of time, and download lots of stuff), there is an operating system running in the background on your machine.  Its essentially a separate machine.  The first command gets the setup file from the cloud.  The second command is a plugin that I recommend when using virtual box to ensure you can use shared fodlers correctly (<a href="http://kvz.io/blog/2013/01/16/vagrant-tip-keep-virtualbox-guest-additions-in-sync/">read more here</a>).  The third commmand is what starts up your virtual machine.</p>
+<p>To connect to separate machines you generally use ssh - a network protocol for logging in and interacting with unix-based operating systems from the command line.  You can use ssh to connect to your new linux machine running in the backgroun too - type the following:</p>
+<pre><code>$ vagrant ssh
+</code></pre><p>Once the ssh shell has started, you are logged into linux and can issue commands.</p>
+<h3 id="problems-with-git">Problems with git</h3>
+<p>After typing <code>vagrant ssh</code> you might see a message something like this:</p>
+<pre><code>&#39;ssh&#39; executable not found in any directories in the %PATH% variable.  Is an ssh client installed?....
+</code></pre><p>This means you do not have a version of git on your machine - which is easy to get.  For Windows, download and install the <a href="http://git-scm.com/download/win">windows git</a>.  For a Mac, get the <a href="http://git-scm.com/download/mac">OS X version</a>.  After installing git fully, <strong>close the command prompt</strong> and start with a new command prompt (cd to your linux directory, and try <code>vagrant ssh</code> again).  If you still have problems, particularly on Windows, see info about setting up your PATH <a href="git_path.html">here</a></p>
+<h2 id="testing-things-out-test-c">Testing things out - test.c</h2>
+<p>We&#39;ll program mostly in C in this course.  Lets use the build tools, in conjunction with our own editor, to build and run a simple program that says hello, and tells us what operating system we are running.</p>
+<p>First, we need to understand a little about how the linux file system maps to your <em>host</em> filesystem.  Your host is your normal operating system - the one you have likely have a bunch of windows and web browsers open on now.  The linux OS running in vagrant is installed within it - running in the background, accessible via command line ssh.</p>
+<p>In vagrant&#39;s ssh session, type the following:</p>
+<pre><code>$  ls -al
+</code></pre><p>If you are used to <code>dir</code> in windows, this is the same thing for unix systems - it lists directories.  You likely only have one actual file - <code>postinstall.sh</code> - the rest are just hidden files.</p>
+<pre><code>total 48
+drwxr-xr-x 4 vagrant vagrant 4096 Sep 14  2012 .
+drwxr-xr-x 3 root    root    4096 Sep 14  2012 ..
+-rw------- 1 vagrant vagrant  192 Jan  5 17:45 .bash_history
+-rw-r--r-- 1 vagrant vagrant  220 Sep 14  2012 .bash_logout
+-rw-r--r-- 1 vagrant vagrant 3486 Sep 14  2012 .bashrc
+drwx------ 2 vagrant vagrant 4096 Sep 14  2012 .cache
+-rwxr-xr-x 1 vagrant vagrant 6487 Sep 14  2012 postinstall.sh
+-rw-r--r-- 1 vagrant vagrant  675 Sep 14  2012 .profile
+drwx------ 2 vagrant vagrant 4096 Jan  5 17:31 .ssh
+-rw-r--r-- 1 vagrant vagrant    0 Sep 14  2012 .sudo_as_admin_successful
+-rw------- 1 vagrant vagrant    6 Sep 14  2012 .vbox_version
+-rw------- 1 vagrant vagrant   12 Sep 14  2012 .veewee_version
+</code></pre><p>Your home directory is located within the vagrant VM - its not directly accessible through the host operating system.  However, vagrant automatically mounts the <strong>current working directory</strong> in your host system to the <code>/vagrant</code> folder within your virtual machine.  This makes things really easy to when using tools in your host operating system (Mac or Windows).</p>
+<p>Type <code>pwd</code>, and unix systems tell you your current working directory - you&#39;ll see it respond with <code>/home/vagrant</code>.  Now change to <code>/vagrant</code> by typing <code>cd /vagrant</code>.  Type <code>ls -al</code> again you you&#39;ll see only the <code>Vagrantfile</code> - which is a settings file for you VM (don&#39;t touch it!)</p>
+<pre><code>total 8
+drwxr-xr-x  1 vagrant vagrant  136 Jan  5 17:30 .
+drwxr-xr-x 23 root    root    4096 Jan  5 17:34 ..
+drwxr-xr-x  1 vagrant vagrant  102 Jan  5 17:30 .vagrant
+-rw-r--r--  1 vagrant vagrant 3001 Jan  5 17:26 Vagrantfile
+</code></pre><h3 id="writing-some-code">Writing some code</h3>
+<p>Open up a programming editor, which ever you prefer to use on your normal machine.  Note, if you are using Windows - Visual Studio is OK - but you don&#39;t COMPILE with Visual Studio, you will compile using the linux commands native to the virtual machine we&#39;ve created.  </p>
+<p>I recommend you use something like <a href="http://www.sublimetext.com/3">Sublime Text</a> or <a href="https://atom.io/">GitHub&#39;s atom</a> instead - these are simply source code editors, not complete compilers.  Things will be simpler for you...</p>
+<p>Now, lets write a short C program that outputs the operating system it is running on.  </p>
+<pre><code class="lang-cpp">
+#include &lt;sys/utsname.h&gt;
+#include &lt;stdio.h&gt;
+
+int main() {
+    struct utsname data;
+
+    uname(&amp;data); 
+
+    printf(&quot;This program is running on %s\n&quot;, data.sysname);
+}
+</code></pre>
+<p>Now save this file as <code>test.c</code> into the <code>cmps311/linux</code> folder on your host machine.  </p>
+<p>Remember, vagrant has mounted the cmps311/linux folder to /vagrant in the virtual machine.  From the terminal, still logged into the virtual machine, type <code>ls -al</code> again.  You should see something like this:</p>
+<pre><code>total 12
+drwxr-xr-x  1 vagrant vagrant  170 Jan  5 17:38 .
+drwxr-xr-x 23 root    root    4096 Jan  5 17:34 ..
+-rw-rw-r--  1 vagrant vagrant  166 Jan  5 17:38 test.c
+drwxr-xr-x  1 vagrant vagrant  102 Jan  5 17:30 .vagrant
+-rw-r--r--  1 vagrant vagrant 3001 Jan  5 17:26 Vagrantfile
+</code></pre><p>So - there is a connection between your host operating system (Mac or Windows) and the virtual machine (linux).  You can edit and save files in your host&#39;s <code>cmps311/linux</code> folder, and work with the very same files in linux within the <code>/vagrant</code> folder.</p>
+<h3 id="compiling-and-running-on-linux">Compiling and running on linux</h3>
+<p>Now lets compile our program.   From the terminal (logged into the linux VM), type the following command to compile the source code:</p>
+<pre><code>gcc -o test test.c
+</code></pre><p>If all goes well, another <code>ls -al</code> command will turn out something like this (obviously date/timestamps will be different on your machine).</p>
+<pre><code>total 20
+drwxr-xr-x  1 vagrant vagrant  204 Jan  5 17:39 .
+drwxr-xr-x 23 root    root    4096 Jan  5 17:34 ..
+-rwxr-xr-x  1 vagrant vagrant 7245 Jan  5 17:39 test
+-rw-rw-r--  1 vagrant vagrant  166 Jan  5 17:38 test.c
+drwxr-xr-x  1 vagrant vagrant  102 Jan  5 17:30 .vagrant
+-rw-r--r--  1 vagrant vagrant 3001 Jan  5 17:26 Vagrantfile
+</code></pre><p>Now type <code>./test</code> at the terminal, you should see this:</p>
+<pre><code>This program is running on Linux
+</code></pre><p><strong>Note</strong> - it should absolutely say linux.  If it says anything else - Mac/Darwin/Apple/Etc - (on Windows, you wouldn&#39;t get past compilation), it means you compiled and ran from your host machine - you weren&#39;t logged into the linux virtual machine!  Its tricky - you need to keep this straight!</p>
+<p>At this point, you are ready to do all the POSIX code assignments for our course.  Remember, occasionally I will ask you to program in Windows as well - which is a whole other story (you won&#39;t use vagrant - just plain old Windows)</p>
+</html>

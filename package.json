@@ -1,0 +1,12 @@
+{
+  "name": "cmps311",
+  "version": "0.0.1",
+  "description": "course site for CMPS 311 - Operating Systems",
+  "main": "index.html",
+  "author": "Scott Frees <scott.frees@gmail.com> (http://scottfrees.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "marked": "*",
+    "node-dir": "*"    
+  }
+}
