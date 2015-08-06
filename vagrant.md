@@ -6,7 +6,7 @@ If you are already using Linux, then you likely do not need to read on - unless 
 > Note - this document is for CMPS 311 students, and is written with student who have limited or no experience using linux or unix systems.  If you already have experience with linux, you might want to just go to Vagrant's website and follow the Getting Started section - which is a little more succinct.
 
 ## Notes about other options
-While you will need to have access to a Unix system, there are actually a whole bunch of ways to do this.  The college has a Linux server, which you can access using ssh.  You can dual-boot your computer to run a full-fledged Linux installation.  You can also install Linux as a virtual machine using free software like VirtualBox or paid-software like VMWare.  
+While you will need to have access to a Unix system, there are actually a whole bunch of ways to do this.  The college has a Linux server, which you can access using ssh.  You can dual-boot your computer to run a full-fledged Linux installation.  You can also install Linux as a virtual machine using free software like VirtualBox or paid-software like VMWare. You caould also dual-boot.  I've provided some additional information on this [here](linux_install.html) 
 
 In this document, I will show you likely the *easiest* way to get up and running - executing code in a linux environment.  It is not necessarily the best way, but it lets you continue to work relatively seamlessly in your familiar environment.  You'll use source code editors in your normal operating system (you could even use Visual Studio, although I'll show you Sublime Text).  You'll compile and run your code in a virtual machine running linux though.  
 

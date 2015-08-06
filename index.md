@@ -12,6 +12,7 @@
 Office&nbsp;&nbsp;G315
 Phone&nbsp;&nbsp;(201) 684-7726
 Email&nbsp;&nbsp;[sfrees@ramapo.edu](mailto:sfrees@ramapo.edu)
+Office Hours &nbsp;&nbsp;Monday and Thursday, 4-5pm
 
 ## Course Description
 A study of the design, use, and analysis of operating systems. The course will include a study of the supportive computer architecture, memory management, process management, information management, device control, operating systems structure, and evaluation.  
@@ -32,7 +33,7 @@ CMPS 231 Data Structures, CMPS 220 Assembly Language Programming, and MATH 237 D
 
 If you are using Windows, you can install Linux alongside Windows without too much trouble.  You have a few options:
 
-1. You could configure your computer to dual-boot into Windows or Linux.  This is an advanced option - please do so at your own risk!  I'd recommend using either Ubuntu or Linux Mint for easy installation.
+1. You could configure your computer to dual-boot into Windows or Linux.  This is an advanced option - please do so at your own risk!  I'd recommend using either Ubuntu or Linux Mint for easy installation.  I've provided some additional info on this [here](linux_install.html).
 2. You could install Linux in a Virtual Machine, such as Virtual Box.  Again, you may choose any Linux distribution but I'd recommend Ubuntu or Mint if you are unfamiliar with Linux.
 3.  The least *invasive* option is to simply install a small Linux environment accessible via the command line *while working in Windows*.  This is a great option if you've never used Linux before.  I've prepared detailed instructions, which can be found [here](vagrant.html).
 
@@ -64,11 +65,11 @@ Write a short research paper summarizing technical aspects of two popular mobile
 ## Homework Assignments
 Homework assignments are worth 100 points, and are turned in electronically.  
 
-* [Homework 1](hw/HW1.pdf)  - Due on TBD 
-* [Homework 2](hw/HW2.pdf)  - Due on TBD 
-* [Homework 3](hw/HW3.pdf)  - Due on TBD
-* [Homework 4](hw/HW4.pdf)  - Due on TBD
-* [Homework 5](hw/HW5.pdf)  - Due on TBD
+* [Homework 1](hw/hw1)  - Due on 9/9/15
+* [Homework 2](hw/hw2)  - Due on 9/14/15
+* [Homework 3](hw/hw3)  - Due on 9/23/15
+* [Homework 4](hw/hw4)  - Due on 9/28/15
+* [Homework 5](hw/hw5)  - Due on 10/14/15
 
 ## Late Policy
 All assignments will be turned in electronically.  A late penalty of 5 points per day will be applied to all late assignments.  The required format/method of your electronic submissions will be outlined for each assignment.  Deviation from these requirements may result in a 5-point penalty.  

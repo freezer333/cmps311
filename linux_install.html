@@ -1,0 +1,126 @@
+<!doctype html><html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Scott Frees</title>
+
+<style type='text/css'>
+  *{margin:0;padding:0;}
+  body {
+    font:13.34px helvetica,arial,freesans,clean,sans-serif;
+    color:black;
+    line-height:1.4em;
+    background-color: #F8F8F8;
+    padding: 0.7em;
+  }
+  p {
+    margin:1em 0;
+    line-height:1.5em;
+  }
+  table {
+    font-size:inherit;
+    font:100%;
+    margin-top:1em;
+    margin-bottom:1em;
+  }
+  table th{border-bottom:1px solid #bbb;padding:.2em 1em;}
+  table td{border-bottom:1px solid #ddd;padding:.2em 1em;}
+  input[type=text],input[type=password],input[type=image],textarea{font:99% helvetica,arial,freesans,sans-serif;}
+  select,option{padding:0 .25em;}
+  optgroup{margin-top:.5em;}
+  pre,code{font:12px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;}
+  pre {
+    margin:1em 0;
+    font-size:12px;
+    background-color:#eee;
+    border:1px solid #ddd;
+    padding:5px;
+    line-height:1.5em;
+    color:#444;
+    overflow:auto;
+    -webkit-box-shadow:rgba(0,0,0,0.07) 0 1px 2px inset;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;border-radius:3px;
+  }
+  pre code {
+    padding:0;
+    font-size:12px;
+    background-color:#eee;
+    border:none;
+  }
+  code {
+    font-size:12px;
+    background-color:#f8f8ff;
+    color:#444;
+    padding:0 .2em;
+    border:1px solid #dedede;
+  }
+  img{border:0;max-width:100%;}
+  abbr{border-bottom:none;}
+  a{color:#4183c4;text-decoration:none;}
+  a:hover{text-decoration:underline;}
+  a code,a:link code,a:visited code{color:#4183c4;}
+  h2,h3{margin:1em 0;}
+  h1,h2,h3,h4,h5,h6{border:0;}
+  h1{font-size:170%;border-top:4px solid #aaa;padding-top:.5em;margin-top:1.5em;}
+  h1:first-child{margin-top:0;padding-top:.25em;border-top:none;}
+  h2{font-size:150%;margin-top:1.5em;border-top:4px solid #e0e0e0;padding-top:.5em;}
+  h3{margin-top:1em;}
+  hr{border:1px solid #ddd;}
+  ul{margin:1em 0 1em 2em;}
+  ol{margin:1em 0 1em 2em;}
+  ul li,ol li{margin-top:.5em;margin-bottom:.5em;}
+  ul ul,ul ol,ol ol,ol ul{margin-top:0;margin-bottom:0;}
+  blockquote{margin:1em 0;border-left:5px solid #ddd;padding-left:.6em;color:#555;}
+  dt{font-weight:bold;margin-left:1em;}
+  dd{margin-left:2em;margin-bottom:1em;}
+  sup {
+      font-size: 0.83em;
+      vertical-align: super;
+      line-height: 0;
+  }
+  * {
+    -webkit-print-color-adjust: exact;
+  }
+
+  .highlight {
+    background-color:#f1c40f;
+    padding-bottom:1em;
+    padding-right:1em;
+    padding-left:1em;
+    font-weight:bold;
+  }
+  @media screen and (min-width: 914px) {
+      body {
+          width: 854px;
+          margin:0 auto;
+      }
+  }
+  @media print {
+    table, pre {
+      page-break-inside: avoid;
+    }
+    pre {
+      word-wrap: break-word;
+    }
+  }
+
+
+</style>
+
+</head>
+<h1 id="installing-linux-in-a-dual-boot-environment">Installing Linux in a Dual-Boot Environment</h1>
+<p>Linux comes in many flavors (distributions), nearly all of which are completely free of charge.  If you’ve never attempted to install Linux on a machine, its a good idea to do so.  Linux is enormously popular in the programming community, and you will likely need to use it many times in your career.  Bluntly, a computer science grad who&#39;s never installed or worked on Linux is at distinct disadvantage entering the workforce!</p>
+<p>The recommended option is to configure a dual-boot machine, allowing you to run Windows or Linux by choosing which OS to launch at boot.  I have used Ubuntu and Linux Mint in dual-boot scenarios, and both are quite easy to install.</p>
+<p>Warning:  While dual-booting your machine likely will go smoothly, I can’t make any promises!  There is a real chance that something could go wrong, and that you could need to reinstall Windows.  This means you could lose your data!  Please, backup your computer before attempting to install LInux.  You are responsible for taking on the risk.  </p>
+<p>For easy steps to download and install Linux, see the links below.  Please note, in all cases, its critical that you choose either 32-bit or 64-bit version, depending on your own machine.</p>
+<ul>
+<li><a href="http://www.ubuntu.com/download/desktop/install-desktop-long-term-support">Instructions for installing Ubuntu Linux alongside (dual-boot) Windows</a></li>
+<li><a href="http://community.linuxmint.com/tutorial/view/744">Instructions for creating Linux Mint installation USB/Disk</a></li>
+<li><a href="http://itsfoss.com/guide-install-linux-mint-16-dual-boot-windows/">Instructions for installing Linux Mint alongside (dual-boot) Windows</a>.  Note, for Step 4 - Installation Type, you can just choose “Install Linux Mint alongside...” instead of creating customized partitions.  You’ll then skip right to step 6.</li>
+</ul>
+<h2 id="virtual-machines">Virtual Machines</h2>
+<p>As an alternative, you could also install Linux within a Virtual Machine such as <a href="https://www.virtualbox.org/wiki/Downloads">Virtaul Box</a> or <a href="http://www.vmware.com/products/fusion/">VMWare</a>.  This option allows you to run a full Linux environment while simultaneously working with Windows.  </p>
+<p>Finally, you can do a more minimal Linux installation using Vagrant, which I&#39;ve outlined <a href="vagrant.html">here</a></p>
+</html>
