@@ -56,6 +56,23 @@ Below is a tentative schedule for the course.  All topics and due dates are subj
 </div>
 
 
+## Modules
+Note, many of these modules will span multiple lectures, be sure to cross-reference the lecture schedule above with the module listing below.
+
+| Module #  | Module Topic | Slides |
+|---------- |--------------|--------|
+|01         |Course Introduction        | [Link](https://docs.google.com/presentation/d/1QSZpeD6KcWUslkiF0HrFcPhyXscZo75ajmWgBbC92dM/pub?start=false&loop=false&delayms=3000)|
+|02         | Operating Systems Overview | [Link](https://docs.google.com/presentation/d/1n9vDtKH65_OFFjuvN0L3WjsG0Et99RLY_LoMjpwitB4/pub?start=false&loop=false&delayms=3000) |
+|03         | System Calls | [Link](https://docs.google.com/presentation/d/1ILmDNUEbmUw4O4OMzxWuzosB4a_XGLNVxhVhLS-SWvA/pub?start=false&loop=false&delayms=3000) |
+|04         | Operating System Structure | [Link](https://docs.google.com/presentation/d/1IHDZ8oJF35MPYsNDSTaINQItK7P9BVJ731c_UznQpTg/pub?start=false&loop=false&delayms=3000) |
+|05         | C Programming and the POSIX Environment | [Link](https://docs.google.com/presentation/d/1HJKNR4LpQX4qI3ol6LVbSYhBlqyIOfSLoNiX7N_1a_A/pub?start=false&loop=false&delayms=3000) |
+|06         | Processes | [Link](https://docs.google.com/presentation/d/1xr0XDiaK4cwbkcT8btHJO8itA-ndVMiGrg81iUeAWQk/pub?start=false&loop=false&delayms=3000) |
+|07         | Threads | [Link](https://docs.google.com/presentation/d/1srgvI6jqfvfsOmK2aUnGwfNdv8K2NtgzZm-i_Mxce-o/pub?start=false&loop=false&delayms=3000) |
+|08         | IPC and Synchronization | [Link](https://docs.google.com/presentation/d/1ZgoQ0JbQ1sDidKfIE_l9KNxg2ASCn_VsWlP6sQ5caiw/pub?start=false&loop=false&delayms=3000) |
+|09         | Scheduling | [Link](https://docs.google.com/presentation/d/1RXM58-7qYmk0pc4CAou4bXfso7rvQDspKcnpgbyysN0/pub?start=false&loop=false&delayms=3000) |
+|10         | Address Spaces | [Link](https://docs.google.com/presentation/d/1H2_cAFaKeOsqrthOOfoBW1AJdjSJMv0t2b6j4iMjsVw/pub?start=false&loop=false&delayms=3000) |
+
+
 ## Written Report (WI Component)
 Write a short research paper summarizing technical aspects of two popular mobile operating systems – iOS and Android.
 * Report on technical aspects of their scheduling systems, thread design, IO / file systems, and security implementations.
