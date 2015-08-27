@@ -57,10 +57,14 @@ Below is a tentative schedule for the course.  All topics and due dates are subj
 
 
 ## Written Report (WI Component)
-Write a short research paper summarizing technical aspects of two popular mobile operating systems – iOS and Android.
-* Report on technical aspects of their scheduling systems, thread design, IO / file systems, and security implementations.
-* The papers are to be 3 pages in length (double spaced), with appropriate references.
-* Due last class of semester
+Writing will be integrated into the life of this course. You will receive comments, direction, and support as you work on strengthening your writing skills. Your writing will be evaluated and returned in a timely fashion, allowing you to incorporate my comments into your future work. For help outside the classroom, please see me during my office hours and/or work with a writing tutor in the Center for Reading and Writing (CRW), Room: L-211, x7557, crw@ramapo.edu.
+
+You will write a written report on the history, evolution, and design of one of the following major operating systems in use today:
+
+The paper will technical aspects of the platforms, but largely focus on the its history and development.  While technical details are must (for example, what type of filesystem does the OS use?), your efforts on this report should be directed on clearly articulating where the operating system came from (did it evolve from something else?), how it became what it is today (were there any releases that were failures, spectacular successes?), and where it is headed (is it on its way out, or is it primed to take over the world?).
+
+* A first draft is due on 10/30/2015.  This draft is expected to be a complete paper, and you will be graded on its quality.  I will offer advice for revisions.
+* Your final draft is due the last day of the Fall 2015 semester (before finals).  Your grade is based on the quality of your writing, the depth in which you covered the subject, and how you responded to revision requests from your first draft. 
 
 ## Homework Assignments
 Homework assignments are worth 100 points, and are turned in electronically.  
