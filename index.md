@@ -55,7 +55,7 @@ Below is a tentative schedule for the course.  All topics and due dates are subj
     <iframe src="https://docs.google.com/spreadsheets/d/1n673IdE-cTdBn2LY7U1pSpp7N9ARZr4YMpHIrt-LiHg/pubhtml?widget=true&amp;headers=false" frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:1200px;width:100%;" height="100%" width="100%"></iframe>
 </div>
 
-
+<a name="modules"></a>
 ## Modules
 Note, many of these modules will span multiple lectures, be sure to cross-reference the lecture schedule above with the module listing below.
 
@@ -72,11 +72,18 @@ Note, many of these modules will span multiple lectures, be sure to cross-refere
 |09         | Scheduling | [Link](https://docs.google.com/presentation/d/1RXM58-7qYmk0pc4CAou4bXfso7rvQDspKcnpgbyysN0/pub?start=false&loop=false&delayms=3000) |
 |10         | Address Spaces | [Link](https://docs.google.com/presentation/d/1H2_cAFaKeOsqrthOOfoBW1AJdjSJMv0t2b6j4iMjsVw/pub?start=false&loop=false&delayms=3000) |
 
+(Check back soon for more)
 
 ## Written Report (WI Component)
 Writing will be integrated into the life of this course. You will receive comments, direction, and support as you work on strengthening your writing skills. Your writing will be evaluated and returned in a timely fashion, allowing you to incorporate my comments into your future work. For help outside the classroom, please see me during my office hours and/or work with a writing tutor in the Center for Reading and Writing (CRW), Room: L-211, x7557, crw@ramapo.edu.
 
-You will write a written report on the history, evolution, and design of one of the following major operating systems in use today:
+You will write a written report on the history, evolution, and design of ONE of the following major operating systems in use today:
+
+* Microsoft Windows
+* Apple OS X
+* Linux
+* Google Android
+* Apple iOS
 
 The paper will technical aspects of the platforms, but largely focus on the its history and development.  While technical details are must (for example, what type of filesystem does the OS use?), your efforts on this report should be directed on clearly articulating where the operating system came from (did it evolve from something else?), how it became what it is today (were there any releases that were failures, spectacular successes?), and where it is headed (is it on its way out, or is it primed to take over the world?).
 
@@ -91,6 +98,8 @@ Homework assignments are worth 100 points, and are turned in electronically.
 * [Homework 3](hw/hw3)  - Due on 9/23/15
 * [Homework 4](hw/hw4)  - Due on 9/28/15
 * [Homework 5](hw/hw5)  - Due on 10/14/15
+
+(Check back soon for more)
 
 ## Late Policy
 All assignments will be turned in electronically.  A late penalty of 5 points per day will be applied to all late assignments.  The required format/method of your electronic submissions will be outlined for each assignment.  Deviation from these requirements may result in a 5-point penalty.  
