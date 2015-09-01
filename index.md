@@ -1,13 +1,7 @@
-# CMPS 311 Fall 2015
-
-## Operating Systems
-
+# CMPS 311 - Operating Systems - Fall 2015
 **Meeting Time:  **&nbsp;&nbsp;Mondays, Wednesday, and Thursdays, 10:00am - 11:10am
-
 **Location:  **&nbsp;&nbsp;ASB Room 429
-
 **Professor:**&nbsp;&nbsp;Scott Frees, Professor of Computer Science
-
 ** Contact Information**
 Office&nbsp;&nbsp;G315
 Phone&nbsp;&nbsp;(201) 684-7726
@@ -16,17 +10,14 @@ Office Hours &nbsp;&nbsp;Monday and Thursday, 4-5pm
 
 ## Course Description
 A study of the design, use, and analysis of operating systems. The course will include a study of the supportive computer architecture, memory management, process management, information management, device control, operating systems structure, and evaluation.  
-## Pre-Requisites
 
+## Pre-Requisites
 CMPS 231 Data Structures, CMPS 220 Assembly Language Programming, and MATH 237 Discrete Structures, CRWT 102 Crit. Reading & Writing 2 
 
 ## Course Materials
-
-**Textbook** &nbsp;&nbsp; [Modern Operating Systems (4th Edition)](http://www.amazon.com/Modern-Operating-Systems-4th-Edition/dp/013359162X) by Andrew S. Tanenbaum, Herbert Bos 
-
+**Textbook** &nbsp;&nbsp; [Modern Operating Systems (4th Edition)](http://www.amazon.com/Modern-Operating-Systems-4th-Edition/dp/013359162X) by Andrew S. Tanenbaum, Herbert Bos. *Note, the textbook is required for this course, and will be relavent to nearly each lecture.*
 <img src='http://ecx.images-amazon.com/images/I/51dqadCuRiL._SX390_BO1,204,203,200_.jpg' width="200"/>
-
-*Note, the textbook is required for this course, and will be relavent to nearly each lecture.*
+<hr class="print-page"/>
 
 ## Required Programming Environment
 **Attention Microsoft Windows Users** - while we will touch upon the Win32 API, the vast majority of the programming you will do in this course will require you to write C++ code targeting the POSIX API, which is supported by Max OS X and Linux.  You will absolutely be required to program in the POSIX environment, so if you do not currently use OS X or Linux, you'll need to create an environment.  
@@ -46,6 +37,7 @@ If you are using Windows, you can install Linux alongside Windows without too mu
 * Understand and evaluate different problems associated with Distributed Systems and Networking
 * Understand modern OS directions and trends 
 
+<hr class="print-page"/>
 ## Lecture Schedule
 Below is a tentative schedule for the course.  All topics and due dates are subject to change, and if there is a difference between what is stated here and on Moodle, please always consider Moodle to be correct (and let me know so I can correct the mismatch!).
 
@@ -54,7 +46,7 @@ Below is a tentative schedule for the course.  All topics and due dates are subj
 <div style="margin:0px;padding:0px;overflow:hidden">
     <iframe src="https://docs.google.com/spreadsheets/d/1n673IdE-cTdBn2LY7U1pSpp7N9ARZr4YMpHIrt-LiHg/pubhtml?widget=true&amp;headers=false" frameborder="0" style="overflow:hidden;overflow-x:hidden;overflow-y:hidden;height:1200px;width:100%;" height="100%" width="100%"></iframe>
 </div>
-
+<hr class="print-page"/>
 <a name="modules"></a>
 ## Modules
 Note, many of these modules will span multiple lectures, be sure to cross-reference the lecture schedule above with the module listing below.
@@ -72,7 +64,19 @@ Note, many of these modules will span multiple lectures, be sure to cross-refere
 |09         | Scheduling | [Link](https://docs.google.com/presentation/d/1RXM58-7qYmk0pc4CAou4bXfso7rvQDspKcnpgbyysN0/pub?start=false&loop=false&delayms=3000) |
 |10         | Address Spaces | [Link](https://docs.google.com/presentation/d/1H2_cAFaKeOsqrthOOfoBW1AJdjSJMv0t2b6j4iMjsVw/pub?start=false&loop=false&delayms=3000) |
 
-(Check back soon for more)
+(Check back (online) soon for more)
+
+## Homework Assignments
+Homework assignments are worth 100 points, and are turned in electronically.  
+
+* [Homework 1](hw/hw1)  - Due on 9/9/15
+* [Homework 2](hw/hw2)  - Due on 9/14/15
+* [Homework 3](hw/hw3)  - Due on 9/23/15
+* [Homework 4](hw/hw4)  - Due on 9/28/15
+* [Homework 5](hw/hw5)  - Due on 10/14/15
+
+(Check back (online) soon for more)
+<hr class="print-page"/>
 
 ## Written Report (WI Component)
 Writing will be integrated into the life of this course. You will receive comments, direction, and support as you work on strengthening your writing skills. Your writing will be evaluated and returned in a timely fashion, allowing you to incorporate my comments into your future work. For help outside the classroom, please see me during my office hours and/or work with a writing tutor in the Center for Reading and Writing (CRW), Room: L-211, x7557, crw@ramapo.edu.
@@ -90,16 +94,7 @@ The paper will technical aspects of the platforms, but largely focus on the its 
 * A first draft is due on 10/30/2015.  This draft is expected to be a complete paper, and you will be graded on its quality.  I will offer advice for revisions.
 * Your final draft is due the last day of the Fall 2015 semester (before finals).  Your grade is based on the quality of your writing, the depth in which you covered the subject, and how you responded to revision requests from your first draft. 
 
-## Homework Assignments
-Homework assignments are worth 100 points, and are turned in electronically.  
 
-* [Homework 1](hw/hw1)  - Due on 9/9/15
-* [Homework 2](hw/hw2)  - Due on 9/14/15
-* [Homework 3](hw/hw3)  - Due on 9/23/15
-* [Homework 4](hw/hw4)  - Due on 9/28/15
-* [Homework 5](hw/hw5)  - Due on 10/14/15
-
-(Check back soon for more)
 
 ## Late Policy
 All assignments will be turned in electronically.  A late penalty of 5 points per day will be applied to all late assignments.  The required format/method of your electronic submissions will be outlined for each assignment.  Deviation from these requirements may result in a 5-point penalty.  
