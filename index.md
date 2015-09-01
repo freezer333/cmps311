@@ -64,8 +64,6 @@ Note, many of these modules will span multiple lectures, be sure to cross-refere
 |09         | Scheduling | [Link](https://docs.google.com/presentation/d/1RXM58-7qYmk0pc4CAou4bXfso7rvQDspKcnpgbyysN0/pub?start=false&loop=false&delayms=3000) |
 |10         | Address Spaces | [Link](https://docs.google.com/presentation/d/1H2_cAFaKeOsqrthOOfoBW1AJdjSJMv0t2b6j4iMjsVw/pub?start=false&loop=false&delayms=3000) |
 
-(Check back (online) soon for more)
-
 ## Homework Assignments
 Homework assignments are worth 100 points, and are turned in electronically.  
 
@@ -74,8 +72,9 @@ Homework assignments are worth 100 points, and are turned in electronically.
 * [Homework 3](hw/hw3)  - Due on 9/23/15
 * [Homework 4](hw/hw4)  - Due on 9/28/15
 * [Homework 5](hw/hw5)  - Due on 10/14/15
+* [Homework 6](hw/hw6)  - Due on 11/5/15
+* [Homework 7](hw/hw7)  - Due on 11/23/15
 
-(Check back (online) soon for more)
 <hr class="print-page"/>
 
 ## Written Report (WI Component)
