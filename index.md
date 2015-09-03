@@ -51,7 +51,7 @@ Below is a tentative schedule for the course.  All topics and due dates are subj
 ## Modules
 Note, many of these modules will span multiple lectures, be sure to cross-reference the lecture schedule above with the module listing below.
 
-<p><a href="../slides_pdf">Slides in PDF form (for printing)</a></p>
+<p><a href="slides_pdf">Slides in PDF form (for printing)</a></p>
 
 | Module #  | Module Topic | Slides |
 |---------- |--------------|--------|
