@@ -69,12 +69,12 @@ Note, many of these modules will span multiple lectures, be sure to cross-refere
 ## Homework Assignments
 Homework assignments are worth 100 points, and are turned in electronically.  
 
-* [Homework 1](hw/hw1)  - Due on 9/9/15
-* [Homework 2](hw/hw2)  - Due on 9/14/15
-* [Homework 3](hw/hw3)  - Due on 9/23/15
-* [Homework 4](hw/hw4)  - Due on 9/28/15
-* [Homework 5](hw/hw5)  - Due on 10/14/15
-* [Homework 6](hw/hw6)  - Due on 11/5/15
+* [Homework 1](hw/hw1)  - Due on 9/14/15
+* [Homework 2](hw/hw2)  - Due on 9/17/15
+* [Homework 3](hw/hw3)  - Due on 9/24/15
+* [Homework 4](hw/hw4)  - Due on 9/30/15
+* [Homework 5](hw/hw5)  - Due on 10/15/15
+* [Homework 6](hw/hw6)  - Due on 11/9/15
 * [Homework 7](hw/hw7)  - Due on 11/23/15
 
 <hr class="print-page"/>
