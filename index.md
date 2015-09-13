@@ -6,7 +6,7 @@
 Office&nbsp;&nbsp;G315
 Phone&nbsp;&nbsp;(201) 684-7726
 Email&nbsp;&nbsp;[sfrees@ramapo.edu](mailto:sfrees@ramapo.edu)
-Office Hours &nbsp;&nbsp;Monday and Thursday, 4-5pm
+Office Hours &nbsp;&nbsp;Monday 12:45-1:45pm and Thursday 4-5pm
 
 ## Course Description
 A study of the design, use, and analysis of operating systems. The course will include a study of the supportive computer architecture, memory management, process management, information management, device control, operating systems structure, and evaluation.  
