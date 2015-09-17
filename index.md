@@ -66,6 +66,11 @@ Note, many of these modules will span multiple lectures, be sure to cross-refere
 |09         | Scheduling | [Link](https://docs.google.com/presentation/d/1RXM58-7qYmk0pc4CAou4bXfso7rvQDspKcnpgbyysN0/pub?start=false&loop=false&delayms=3000) |
 |10         | Address Spaces | [Link](https://docs.google.com/presentation/d/1H2_cAFaKeOsqrthOOfoBW1AJdjSJMv0t2b6j4iMjsVw/pub?start=false&loop=false&delayms=3000) |
 
+## Code Examples
+
+Click [here](code/) for source code discussed in lectures throughout the semester.
+
+
 ## Homework Assignments
 Homework assignments are worth 100 points, and are turned in electronically.  
 
