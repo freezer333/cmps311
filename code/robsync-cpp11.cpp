@@ -5,6 +5,7 @@
 #include <chrono>
 #include <ctime>
 #include <vector>
+#include <algorithm>
 using namespace std;
 
 void theif (mutex * m) {
