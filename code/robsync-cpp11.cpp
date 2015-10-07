@@ -1,34 +1,27 @@
 #include <iostream>
+#include <fstream>
 #include <thread>
 #include <mutex>
+#include <chrono>
+#include <ctime>
+#include <vector>
+using namespace std;
 
-/*
-open bank account file for reading 
-read balance from file 
-close bank account file 
-"steal" half of balance and add  to own personal account 
-open bank account file for writing 
-write new, lower balance to file 
-close bank account file 
-*/
-
-
-void theif (mutex & m) {
+void theif (mutex * m) {
     int balance;
     int stolen = 0;
     while ( 1 ) 
     {
-        mutex.lock();
+        m->lock();
         // critical section
-        FILE * file = fopen ("account.txt", "r");
-        fscanf ( file, "%d", &balance);
-    
-        fclose(file);
+        ifstream fin("account.txt");
+        fin >> balance;
+        fin.close();
     
         if ( balance == 0 ) {
             printf("Theif stole total of %d\n",  stolen);
-            mutex.unlock();
-            return 0;
+            m->unlock();
+            return;
         }
     
         if ( balance > 1 ) {
@@ -41,33 +34,32 @@ void theif (mutex & m) {
             balance = 0;
         }
         
-        file = fopen ("account.txt", "w");
-        fprintf(file, "%d", balance);
-        fclose(file);
+        ofstream fout("account.txt");
+        fout << balance << endl;
+        fout.close();
         
         /* RELEASE LOCK */
-        mutex.unlock()
+        m->unlock();
         
-        Sleep (rand() % 1000);
+        this_thread::sleep_for (chrono::milliseconds(rand() %1000));
     }
 }
 
 int main() {
     
-    srand (GetTickCount());
+    srand (time(0));
     
-    HANDLE threads[4];
+    vector<std::thread> threads;
 
-    mutex = CreateMutex(NULL, FALSE, NULL);
+    mutex shared_mutex;;
 
     for (int i = 0; i < 4; i++ ) {
-        threads[i] = CreateThread( NULL, 0, theif,NULL, 0, NULL);
+        threads.push_back(std::thread(theif, &shared_mutex));
     }
     
-    WaitForMultipleObjects(4, threads, TRUE, INFINITE);
+    for_each(threads.begin(), threads.end(), [](thread & t) { t.join(); });
     
-    FILE * file = fopen ("account.txt", "w");
-    fprintf(file, "1000");
-    fclose(file);
-    
+    ofstream fout("account.txt");
+    fout << "1000" << endl;
+    fout.close();
 }
