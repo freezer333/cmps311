@@ -65,6 +65,7 @@ Note, many of these modules will span multiple lectures, be sure to cross-refere
 |08         | IPC and Synchronization | [Link](https://docs.google.com/presentation/d/1ZgoQ0JbQ1sDidKfIE_l9KNxg2ASCn_VsWlP6sQ5caiw/pub?start=false&loop=false&delayms=3000) |
 |09         | Scheduling | [Link](https://docs.google.com/presentation/d/1RXM58-7qYmk0pc4CAou4bXfso7rvQDspKcnpgbyysN0/pub?start=false&loop=false&delayms=3000) |
 |10         | Address Spaces | [Link](https://docs.google.com/presentation/d/1H2_cAFaKeOsqrthOOfoBW1AJdjSJMv0t2b6j4iMjsVw/pub?start=false&loop=false&delayms=3000) |
+|11         | Virtual Memory | [Link](https://docs.google.com/presentation/d/1F13DUM8k_45YYfxKjng4V6kqvFIdgzwFq_hv_hAxzjw/pub?start=false&loop=false&delayms=3000&slide=id.p) |
 
 ## Code Examples
 
